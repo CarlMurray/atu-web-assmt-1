@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: cadetblue;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+/* SIDE NAV BAR */
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 20%;
+  background-color: #a8dadc;
+  padding: 20px;
+}
+
+/* SIDE NAV BAR LINKS */
+nav > a {
+  width: 100%;
+  text-align: center;
+}
+
+/* SIDE NAV BAR IMAGES */
+.nav-img {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+/* MAIN PAGE HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #457b9d;
+  padding: 15px;
+  position: relative;
+}
+
+/* OVERALL CONTAINER FOR MAIN BODY */
+.container {
+  width: 100%;
+  padding: 25px;
+}
+
+/* CONTAINER FOR INPUT FIELD */
+.input-container {
+  font-size: 1.5em;
+  color: yellow;
+}
+
+input[type="text"] {
+  height: 25px;
+}
+
+.movie-nights-headline {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  opacity: 50%;
+  bottom: 10%;
+  left: 20%;
+  color: gold;
+}
+
+/* AVATAR HEADER */
+h1 {
+  background-color: #e63946;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* RADIO SELECT HEADER */
+h2 {
+  font-size: 1.2em;
+}
+
+/* CONTAINER FOR MOVIE */
+.avatar-container {
+  display: flex;
+  gap: 25px;
+}
+
+.avatar-container > img {
+  height: 300px;
+}
+
+/* CONTAINER FOR RADIO SELECT LIST */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  margin-top: 30px;
+}
+
+/* CONTAINER FOR MAIN BODY CONTENT */
+.content-container {
+  padding: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #457b9d;
+  font-size: 1.3em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+footer > a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+footer > a:hover {
+  color: #e63946;
+}
